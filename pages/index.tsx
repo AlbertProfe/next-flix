@@ -55,10 +55,36 @@ export default function Home({
           </h2>
         )}
 
-        <p className="description">
-          Get started by editing <code>pages/index.js</code>
-        </p>
-
+        <div>
+          <hr />
+          <p className="description">
+            Get started by editing <code>pages/index.js</code>
+            <br />
+            <a href="/api">
+              Go to API <code>pages/api</code>
+            </a>{" "}
+            <br />
+            <a href="/api/movies">
+              Go to API movies<code>pages/api/movies</code>
+            </a>{" "}
+            <br />
+            <a href="/api/comments">
+              Go to API comments<code>pages/api/comments</code>
+            </a>{" "}
+            <br />
+            <a href="/movies">
+              Go to client/server <code>getServerSideProps()</code> render
+              <code>pages/movies</code>
+            </a>{" "}
+            <br />
+            <a href="/movies-static">
+              Go to server <code>getStaticProps()</code> static render
+              <code>pages/movies-static</code>
+            </a>{" "}
+            <br />
+          </p>
+          <hr />
+        </div>
         <div className="grid">
           <a href="https://nextjs.org/docs" className="card">
             <h3>Documentation &rarr;</h3>
