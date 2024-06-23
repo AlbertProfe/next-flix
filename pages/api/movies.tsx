@@ -9,7 +9,7 @@ export default async (req: NextApiRequest, res: NextApiResponse) => {
             .collection("movies")
             .find({})
             .sort({ metacritic: -1 })
-            .limit(10)
+            .limit(20)
             .toArray();
         res.json(movies);
     } catch (e) {

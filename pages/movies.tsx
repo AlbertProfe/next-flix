@@ -47,7 +47,7 @@ export const getServerSideProps: GetServerSideProps = async () => {
            .collection("movies")
            .find({})
            .sort({ metacritic: 1 })
-           .limit(1000)
+           .limit(20)
            .toArray();
        return {
            props: { movies: JSON.parse(JSON.stringify(movies)) },
