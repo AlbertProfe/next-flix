@@ -82,6 +82,11 @@ export default function Home({
               <code>pages/movies-static</code>
             </a>{" "}
             <br />
+            <a href="/movies-client">
+              Go to client side <code>data Fetching</code> from api
+              <code>pages/movies-client</code>
+            </a>{" "}
+            <br />
           </p>
           <hr />
         </div>
